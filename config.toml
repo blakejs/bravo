@@ -315,7 +315,7 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "2018 © All Rights Reversed. Agency."
 
     [[params.footer.social]]
       icon = "fa-twitter"
