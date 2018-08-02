@@ -1,9 +1,9 @@
 {{ "<!-- Clients Aside -->" | safeHTML }}
 <aside class="clients">
   <div class="container">
-    <div class="row">
+    <div class="row" style="padding-bottom: 20px;">
       <div class="col-lg-12 text-center">
-<h4 class="heading">{{ with .Site.Params.clients_list.title }}{{ . | markdownify }}{{ end }}</h4>
+<h4 class="heading" style="text-decoration-line: underline">{{ with .Site.Params.clients_list.title }}{{ . | markdownify }}{{ end }}</h4>
       </div>
     </div>
     <div class="row flexbox{{ if .Site.Params.clients_list.center }} flexbox-center{{ end }}">
